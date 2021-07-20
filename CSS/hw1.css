@@ -4,23 +4,33 @@ body {
 	background-position: fixed;
 	background-size: 100%,100%;
 }
+
 header {
 	background-color: rgba(0,100,100,0.5);
 	padding-top:10px;
 	padding-bottom:1px;
 	border-radius:20px;
 }
+
 h1 {
 	text-align:center;
 	color: rgb(255,255,255);
 	font-size:300%;
 }
+
+h2 {
+	text-align: center;
+	color: rgb(200, 200, 200);
+}
+
 a {
 	font-size:125%;
 }
+
 button:hover {
 	background-color: rgba(255,255,255);
 }
+
 section {
 	background-color: rgba(255,255,200,0.750);
 	font-size:150%;
@@ -28,11 +38,13 @@ section {
 	padding-bottom:10px;
 	border-radius:15px;
 }
+
 h2 {
 	color: rgb(110,65,255);
 	background-color: rgb(255,255,200);
 	display: inline-block;
 }
+
 img {
 	display: none;
 }
